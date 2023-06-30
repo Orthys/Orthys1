@@ -1,0 +1,63 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.product-list, .cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item, .cart-item {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product-item img, .cart-item img {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0070f3;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0051bb;
+}

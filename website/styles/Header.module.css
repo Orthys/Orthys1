@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.header .logo h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.header .cart {
+  display: flex;
+  align-items: center;
+}
+
+.header .cart img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.header .cart span {
+  font-size: 18px;
+  color: #333;
+}
